@@ -1,0 +1,16 @@
+# Core AI
+torch
+transformers
+sentence-transformers
+faiss-cpu  # Use faiss-gpu if you have a GPU and CUDA setup
+langchain
+langchain-community
+langchain-huggingface
+
+# PDF & Parsing
+unstructured[pdf]
+pdf2image
+pdfminer.six
+pillow_heif
+unstructured_inference
+pytesseract
