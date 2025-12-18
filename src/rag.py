@@ -36,7 +36,7 @@ def get_rag_chain():
     os.environ["GROQ_API_KEY"] = os.getenv("API_KEY")
     # 3. Setup the LLM (Local Ollama)
     llm = ChatGroq(
-        model_name="llama-3.3-70b-versatile",
+        model_name="openai/gpt-oss-120b",
         temperature=0.1 # Low temp = Factual. High temp = Creative. We want Factual.
     )
 
