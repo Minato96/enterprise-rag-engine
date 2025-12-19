@@ -1,0 +1,6 @@
+__pycache__
+venv
+.env
+.git
+data/vectors/* # Optional: We usually want to rebuild the DB inside, or mount it. 
+                # For now, let's ignore local vectors so the container starts fresh.
