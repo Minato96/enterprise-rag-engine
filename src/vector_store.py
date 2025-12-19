@@ -1,7 +1,7 @@
 import os
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
-from ingest import load_and_chunk_pdf  # Importing your function from Step 1
+from src.ingest import load_and_chunk_pdf  # Importing your function from Step 1
 
 # CONFIGURATION
 # We use a small, fast, but high-quality model
